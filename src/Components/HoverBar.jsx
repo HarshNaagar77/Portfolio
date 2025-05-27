@@ -4,7 +4,7 @@ import CustomCursor from './CustomCursor';
 
 const HoverBar = ({ setRender }) => {
   return (
-    <div className="bottom-5 sm:left-[38vw] left-5 border border-gray-300 sm:w-88 pr-7 pl-7 w-88 rounded-2xl bg-white fixed z-50 shadow-xl">
+    <div className="bottom-5 sm:left-[38vw] left-4 border border-gray-300 sm:w-88 sm:pr-7 sm:pl-7 w-72 rounded-2xl bg-white fixed z-50 shadow-xl">
       <CustomCursor />
       <ul className="mainul flex p-3 justify-between">
         <li className="home" onClick={() => setRender("Home")}>
